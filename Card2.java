@@ -127,9 +127,11 @@ public class Card2 {
       for (int i = 0; i < num; i++) {
         if(num >= flip) {
           g.rotate(Math.toRadians(180), iterx, itery);
+          g.drawString(suite, iterx, itery);
           g.setTransform(old);
+        } else {
+          g.drawString(suite, iterx, itery);
         }
-        g.drawString(suite, iterx, itery);
         itery += spacing;
         
       }
