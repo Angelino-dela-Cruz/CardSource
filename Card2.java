@@ -2,7 +2,7 @@ import java.util.*;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.math.*;
-
+// check this out
 
 /*  
     actual class for the card where most of the code is used
@@ -122,7 +122,7 @@ public class Card2 {
   public void makeRows(int num, String suite, int iterx, int itery, int row, int spacey, int spacing) {
     int flip = num - 1;
     System.out.println(num);
-    AffineTransform old= g.getTransform()
+    AffineTransform old= g.getTransform();
     if (num > 1) {
       for (int i = 0; i < num; i++) {
         if(num >= flip) {
