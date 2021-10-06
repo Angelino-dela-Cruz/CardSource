@@ -36,6 +36,7 @@ public class Card2 {
     r = (int) (1 + (Math.random() * 13)); // actual random object defining the value
     String value = findValue(r); 
     String suite = findSuite();
+    // Initializing Variables 
     this.x = x;
     this.y = y;
     this.g = (Graphics2D) g;
