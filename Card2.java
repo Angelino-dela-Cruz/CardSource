@@ -236,16 +236,16 @@ public class Card2 {
   // below method is used to find the suit of the card
   public static String findSuite() {
     int s = (int) (Math.random() * 4); //  1 in 4 chance
-    String suite;
-    if (s == 0) {
-      suite = "\u2666"; // Diamond
-    } else if (s == 1) {
-      suite = "\u2665"; // Heart
-    } else if (s == 2) {
-      suite = "\u2660"; // Spade
-    } else {
-      suite = "\u2663"; // Club
+    String suite = "";
+    switch (s) {
+      case 0: suite = "\u2666"; // Diamond
+      break;
+      case 1: suite = "\u2665"; // Heart
+      break;
+      case 2: suite = "\u2660"; // Spade
+      break;
+      case 3: suite = "\u2663"; // Club
+      break;
     }
-    return suite;
   }
 }
