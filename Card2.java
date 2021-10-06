@@ -59,7 +59,7 @@ public class Card2 {
     g.drawString(value, x + 10, y + 30);
     g.drawString(suite, x + 10, y + 60);
     if (r >= 11) {
-      drawRoyal(value);
+      drawRoyal(value); // values of jack, king, queen
     } else {
       int row = getRow();
       int spaceLeftx = 130;
