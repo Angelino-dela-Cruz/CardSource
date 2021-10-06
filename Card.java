@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.math.*;
 
+// Vincent's change through Git GUI....
 
 /*  
     actual class for the card where most of the code is used
