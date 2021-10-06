@@ -21,6 +21,7 @@ class Main {
     /* 
     -- getting and naming drawingpanel and the graphics used 
     -- for the cards to be drawn on
+    -- test
     */
     DrawingPanel d= new DrawingPanel(1000, 1000);
     Graphics2D g = (Graphics2D)d.getGraphics();
