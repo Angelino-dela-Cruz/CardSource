@@ -120,10 +120,10 @@ public class Card2 {
 
   // prints the rows of the pattern when the value isn't an ace or any of the face cards
   public void makeRows(int num, String suite, int iterx, int itery, int row, int spacey, int spacing) {
-    int flip = num - 1;
     System.out.println(num);
     AffineTransform old= g.getTransform();
     if (num > 1) {
+      int flip = num - 1;
       for (int i = 0; i < num; i++) {
         if(num >= flip) {
           g.rotate(Math.toRadians(180), iterx, itery);
